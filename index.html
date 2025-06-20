@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precious Parna 💝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background elements -->
+  <div class="gif-background"></div>
+  <div class="pink-overlay"></div>
+  <div class="hearts"></div>
+
+  <!-- Audio -->
+
+  <audio id="bgMusic" autoplay loop>
+    <source src="assets/love-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Main content -->
+  <div class="container">
+    <header class="header">
+      <h1 id="typewriter">💌 For <span class="parna">Parna</span> 💌</h1>
+      <p class="subtitle">(My Precious Pookie)</p>
+    </header>
+
+    <div class="apology-box">
+      <div class="message">
+        <p id="apologyText"></p>
+      </div>
+      <button class="cta-button" id="surpriseBtn">Click for a Surprise! 💝</button>
+    </div>
+  </div>
+
+  <!-- Surprise Modal -->
+  <div id="surpriseModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <img src="assets/parna-photo.jpg" alt="Beautiful Parna" class="parna-photo">
+      <p class="modal-text">You deserve all the happiness in the world! 🌸</p>
+      <div class="forgiveness-buttons">
+        <button id="forgiveBtn">I forgive you 💖</button>
+        <button id="noForgiveBtn">No forgiveness 😠</button>
+      </div>
+      <p id="responseText"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
